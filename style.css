@@ -79,7 +79,9 @@
 .searchbar input {
     width: 80%;
     /* flex: 1; */
-    border-radius: 8px;
+    border-radius: 15px;
+    background-color: #E2E8F0;
+    border: none;
 }
 
 .searchbar img {
@@ -87,11 +89,39 @@
     width: 30px;
 }
 
-.profile {
+.user {
     grid-column: 3 / 4;
     /* background-color: brown; */
     justify-self: end;
     align-self: center;
+    margin-right: 1rem;
 }
 
+.profile {
+    grid-column: 2/ 4;
+    display: flex;
+    align-items: center;
+    background-color: #557180;
+}
+
+.profile button {
+    /* margin-left: auto; */
+    width: 80px;
+    height: 30px;
+    margin-right: 1rem;
+    color: white;
+    background-color: #1992D4;
+    border: none;
+    border-radius: 8px;
+}
+
+.article {
+    background-color: #c4cad2;
+}
+
+.extra {
+    background-color: #1a5e83;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
 
