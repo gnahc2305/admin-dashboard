@@ -80,7 +80,7 @@
     width: 80%;
     /* flex: 1; */
     border-radius: 15px;
-    background-color: #E2E8F0;
+    background-color: #C4CAD2;
     border: none;
 }
 
@@ -99,24 +99,55 @@
 
 .profile {
     grid-column: 2/ 4;
-    display: flex;
-    align-items: center;
     background-color: #557180;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .profile button {
-    /* margin-left: auto; */
     width: 80px;
     height: 30px;
-    margin-right: 1rem;
     color: white;
     background-color: #1992D4;
     border: none;
     border-radius: 8px;
 }
 
+.name {
+    grid-column: 1 / 2;
+}
+
+.buttons {
+    grid-column: 2 / 3;
+    align-self: center;
+}
+
 .article {
     background-color: #c4cad2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 10px;
+}
+
+#headline {
+    position: absolute;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.project {
+    background-color: #6dc2f0;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.project p,
+.project h3 {
+    margin: 10px;
 }
 
 .extra {
