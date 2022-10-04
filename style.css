@@ -24,7 +24,7 @@
 }
 
 .sidebar {
-    background: #1992D4;
+    background: #701a75;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
     min-width: 190px;
@@ -80,7 +80,7 @@
 .searchbar input {
     width: 80%;
     border-radius: 15px;
-    background-color: #C4CAD2;
+    background-color: #f472b6;
     border: none;
 }
 
@@ -114,9 +114,11 @@
     align-items: center;
 }
 
+
+
 .profile {
     grid-column: 2/ 4;
-    background-color: #557180;
+    background-color: #f5d0fe;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -140,7 +142,7 @@
 }
 
 .article {
-    background-color: #c4cad2;
+    background-color: #f472b6;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(110px, 1fr));
@@ -157,10 +159,11 @@
 }
 
 .project {
-    background-color: #6dc2f0;
+    background-color: white;
     margin: 10px;
     margin-top: 40px;
     border-radius: 10px;
+    box-shadow: 0px 5px 10px;
 }
 
 .project p,
@@ -169,7 +172,7 @@
 }
 
 .extra {
-    background-color: #1a5e83;
+    background-color: #f472b6;
     display: grid;
     grid-template-rows: 1fr 1fr;
     /* justify-items: center; */
@@ -178,8 +181,9 @@
 .card {
     height: 300px;
     width: 250px;
-    background-color: #1992D4;
+    background-color: white;
     border-radius: 10px;
     justify-self: center;
+    box-shadow: 0px 5px 10px;
 }
 
