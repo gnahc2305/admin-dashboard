@@ -154,5 +154,13 @@
     background-color: #1a5e83;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    /* align-items: center; */
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    background-color: #1992D4;
 }
 
