@@ -71,8 +71,6 @@
 } */
 
 .searchbar {
-    /* grid-column: 2 / 3; */
-    /* background-color: red; */
     display: flex;
     align-self: center;
     justify-self: center;
@@ -81,7 +79,6 @@
 
 .searchbar input {
     width: 80%;
-    /* flex: 1; */
     border-radius: 15px;
     background-color: #C4CAD2;
     border: none;
@@ -93,11 +90,28 @@
 }
 
 .user {
+    align-self: end;
+}
+
+#bell {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.user img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.user {
     grid-column: 3 / 4;
-    /* background-color: brown; */
+    display: flex;
     justify-self: end;
     align-self: center;
     margin-right: 1rem;
+    align-items: center;
 }
 
 .profile {
