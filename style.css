@@ -7,6 +7,7 @@
     font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* margin: 0;
     padding: 0; */
+    text-decoration: none;
 }
 
 .container {
@@ -24,7 +25,7 @@
 }
 
 .sidebar {
-    background: #701a75;
+    background: #1992D4;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
     min-width: 190px;
@@ -45,10 +46,6 @@
     /* list-style-image: url(/icons/cards.svg); */
 }
 
-.title svg {    
-    margin-top: 10px;
-}
-
 /* .title svg {
     width: 50px;
     height: 50px;
@@ -57,6 +54,11 @@
 
 .home {
     margin: 50px 0px;
+}
+
+.home a,
+.settings a {
+    color: white;
 }
 
 .sidebar ul li {
@@ -73,6 +75,7 @@
 .title img {
     height: 50px;
     width: 50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
 .settings {
@@ -83,10 +86,11 @@
 .settings img {
     height: 30px;
     width: 30px;
-    color: white;
     /* margin-right: 5px; */
     margin-bottom: -8px;
     margin-right: 5px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
 }
 
 
@@ -156,6 +160,7 @@
     background-color: #1992D4;
     border: none;
     border-radius: 8px;
+    margin: 0px 8px;
 }
 
 .name {
@@ -165,6 +170,7 @@
 .buttons {
     grid-column: 2 / 3;
     align-self: center;
+    justify-self: center;
 }
 
 .article {
@@ -201,6 +207,8 @@
     background-color: #E2E8F0;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    gap: 3px;
+    /* grid-template-rows: repeat(1, auto-fit); */
     /* justify-items: center; */
 }
 
